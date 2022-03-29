@@ -37,7 +37,7 @@
       <a class="action" href="<?= url_for('salamanders/show.php?id=' . h(u($salamander['id']))); ?>">View</a>
       </td>
       <td>
-      <a class="action" href="<?php url_for('/edit.php?id=' . h(u($subject['id']))); ?>">Edit</a>
+      <a class="action" href="<?php url_for('/edit.php?id=' . h(u($salamander['id']))); ?>">Edit</a>
       </td>
       <td>
       <a class="action" href="">Delete</a>
